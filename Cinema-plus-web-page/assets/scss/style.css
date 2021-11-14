@@ -1,0 +1,204 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Gotham-Medium;
+  src: url(../../Fonts/Gotham-Medium.otf);
+}
+
+.body {
+  font-family: Arch-Bold;
+}
+
+.container .row .headerLogo .logo {
+  background-color: #334e9e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 161px;
+  position: relative;
+}
+
+.container .row .headerLogo .logo a img {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .row .headerLogo .logo a img:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container .row .headerLogo .background {
+  position: absolute;
+  background-color: #334e9e;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 161px;
+  width: 200vh;
+  left: 0px;
+}
+
+.container .row .headerNavbar {
+  position: relative;
+}
+
+.container .row .headerNavbar .navbarTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  width: 110vh;
+}
+
+.container .row .headerNavbar .navbarTop .menutop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+}
+
+.container .row .headerNavbar .navbarTop .menutop ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .row .headerNavbar .navbarTop .menutop ul li {
+  padding-left: 30px;
+}
+
+.container .row .headerNavbar .navbarTop .menutop ul li a {
+  text-decoration: none;
+  color: #818181;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container .row .headerNavbar .navbarTop .menutop ul li a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: black;
+}
+
+.container .row .headerNavbar .navbarTop .langs {
+  margin-left: 50px;
+}
+
+.container .row .headerNavbar .navbarTop .langs ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .row .headerNavbar .navbarTop .langs ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 10px;
+}
+
+.container .row .headerNavbar .navbarTop .langs ul li a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container .row .headerNavbar .navbarTop .langs ul li a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #e98b21;
+}
+
+.container .row .headerNavbar .navbarTop .langs ul .droids li a {
+  text-decoration: none;
+  color: #4860a8;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container .row .headerNavbar .navbarTop .langs ul .droids li a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #e98b21;
+}
+
+.container .row .headerNavbar .navbarBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #00acec;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  width: 110vh;
+}
+
+.container .row .headerNavbar .navbarBottom .menubottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .row .headerNavbar .navbarBottom .menubottom ul li {
+  padding-left: 30px;
+}
+
+.container .row .headerNavbar .navbarBottom .menubottom ul li a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container .row .headerNavbar .navbarBottom .menubottom ul li a span {
+  font-size: small;
+}
+
+.container .row .headerNavbar .navbarBottom .menubottom ul li a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #334e9e;
+}
+
+.container .row .headerNavbar .navbarBottom .phone {
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+
+.container .row .headerNavbar .navbarBottom .phone a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container .row .headerNavbar .navbarBottom .phone a:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #334e9e;
+}
+
+@font-face {
+  font-family: Gotham-Medium;
+  src: url(../../Fonts/Gotham-Medium.otf);
+}
+/*# sourceMappingURL=style.css.map */
